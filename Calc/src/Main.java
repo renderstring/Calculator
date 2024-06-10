@@ -6,11 +6,11 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Введите выражение: ");
+        System.out.print("Введите выражение: ");
         String expression = scan.nextLine();
 
         String result = calc(expression);
-        System.out.println("Результат: " + result);
+        System.out.print("Результат: " + result);
 
     }
 
